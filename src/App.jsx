@@ -1,6 +1,7 @@
 
 import './App.css'
 import Header from './Components/Header/Header'
+import Recipes from './Components/Header/Recipes/Recipes'
 
 function App() {
 
@@ -9,6 +10,8 @@ function App() {
     <>
     
     <Header></Header>
+
+    <Recipes></Recipes>
       
     </>
   )

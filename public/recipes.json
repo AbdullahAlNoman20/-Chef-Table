@@ -1,0 +1,58 @@
+
+
+[
+    {
+      "recipe_image": "https://i.ibb.co/yyq0YkB/1681396111630.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Grilled Chicken with Soy Sauce Glaze",
+      "short_description": "Juicy grilled chicken marinated in a savory soy sauce glaze.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_image": "https://i.ibb.co/wNFtJ07/Caprese-Salad-7.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Caprese Salad",
+      "short_description": "A classic Italian salad featuring fresh tomatoes, mozzarella, and basil.",
+      "ingredients": ["3 large tomatoes", "200 g fresh mozzarella", "1 bunch fresh basil", "2 tbsp balsamic vinegar"],
+      "preparing_time": 15,
+      "calories": 180
+    },
+    {
+      "recipe_image": "https://i.ibb.co/M2k0TWq/stir-fry-vegetables-recipe-8.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "Colorful and nutritious stir-fried vegetables in a flavorful sauce.",
+      "ingredients": ["1 red bell pepper", "1 green bell pepper", "1 yellow bell pepper", "200 g broccoli florets", "150 g snap peas", "3 cloves garlic", "2 tbsp soy sauce"],
+      "preparing_time": 25,
+      "calories": 150
+    },
+    {
+      "recipe_image": "https://i.ibb.co/7jhsKpf/1431766590243.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "A creamy pasta dish with bacon, eggs, and Parmesan cheese.",
+      "ingredients": ["300 g spaghetti", "150 g bacon", "3 eggs", "50 g grated Parmesan cheese", "2 cloves garlic"],
+      "preparing_time": 20,
+      "calories": 450
+    },
+    {
+      "recipe_image": "https://i.ibb.co/HGZ4pjm/mushroom-risotto-recipe-580x782.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Creamy and comforting risotto with earthy mushrooms.",
+      "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 onion", "1 liter vegetable broth", "50 g butter", "50 g grated Parmesan cheese"],
+      "preparing_time": 35,
+      "calories": 380
+    },
+    {
+      "recipe_image": "https://i.ibb.co/ryp5bBx/grilled-veggie-skewers-bbq-680x453.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Grilled Vegetable Skewers",
+      "short_description": "Delicious skewers of grilled vegetables with a tangy marinade.",
+      "ingredients": ["1 zucchini", "1 yellow squash", "1 red onion", "1 bell pepper", "200 g cherry tomatoes", "2 tbsp olive oil", "2 tbsp balsamic vinegar", "1 tsp dried herbs"],
+      "preparing_time": 20,
+      "calories": 120
+    }
+  ]

@@ -17,6 +17,7 @@ const Header = () => {
         <li><a>Home</a></li>
         <li><a>About</a></li>
         <li><a>Recipes</a></li>
+        <li><a>Search</a></li>
       </ul>
     </div>
     <a class="text-2xl md:text-4xl font-extrabold text-red-600">Chef Table</a>
@@ -26,6 +27,7 @@ const Header = () => {
       <li><a className="text-red-600">Home</a></li>
       <li><a>About</a></li>
       <li><a>Recipes</a></li>
+      <li><a>Search</a></li>
     </ul>
   </div>
   <div class="navbar-end">
