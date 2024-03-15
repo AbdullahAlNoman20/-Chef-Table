@@ -4,7 +4,7 @@ const Header = () => {
     return (
 
 
-        <div className="md:px-20 px-5 pt-10">
+        <div className="md:px-20 px-3 pt-10">
 
 
             <div class="navbar rounded-3xl">
@@ -20,7 +20,7 @@ const Header = () => {
         <li><a>Search</a></li>
       </ul>
     </div>
-    <a class="text-2xl md:text-4xl font-extrabold text-red-600">Chef Table</a>
+    <a class="md:text-4xl md:font-extrabold text-red-600"><i class="fa-solid fa-martini-glass-citrus"></i> Chef Table</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1 font-bold">
@@ -46,14 +46,14 @@ const Header = () => {
 
         {/* Banner Section */}
         <div className=" mt-10 rounded-3xl">
-        <div className="rounded-3xl hero min-h-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+        <div className="rounded-3xl hero min-h-screen" style={{backgroundImage: 'url(https://i.ibb.co/dK3zkpG/Rectangle-1.png)'}}>
   <div className="hero-overlay bg-opacity-60 rounded-3xl"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="">
       <h1 className="mb-5 text-5xl font-bold">Discover an exceptional cooking class tailored for you!</h1>
       <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quas dolores hic, ex facilis enim tempore magnam, harum reprehenderit molestiae libero, consequatur sapiente quasi deleniti? Nobis aperiam eaque facilis velit.</p>
-      <button className="btn btn-active btn-secondary">Explore Now</button>
-      <button className="ml-5 btn btn-outline btn-secondary">Our Feedback</button>
+      <button className="text-white btn btn-active btn-success">Explore Now</button>
+      <button className="ml-5 btn btn-outline btn-success">Our Feedback</button>
     </div>
   </div>
 </div>
