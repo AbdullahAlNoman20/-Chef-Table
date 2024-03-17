@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../../Recipe/Recipe";
+import PropTypes from 'prop-types';
 
 
-const Recipes = () => {
+const Recipes = ({handleAddCook}) => {
 
     // Data Lode Kore jekhane rakhbo sai state
     const [recipes, setRecipes] = useState([])
@@ -19,18 +20,23 @@ const Recipes = () => {
         <div className="md:w-2/3 mx-5 grid md:grid-cols-2 gap-5">
 
             {
-                recipes.map( recipe => <Recipe 
+                recipes.map( (recipe,idx) => <Recipe 
                     
-                    key={recipe.id} 
-                    recipe={recipe}>
+                    key={idx} 
+                    recipe={recipe}
+                    handleAddCook = {handleAddCook}
 
-                    </Recipe>)
+                    ></Recipe>)
             }
 
         </div>
     );
 };
 
+
+Recipes.propTypes = {
+    handleAddCook: PropTypes.func
+}
 
 
 export default Recipes;
