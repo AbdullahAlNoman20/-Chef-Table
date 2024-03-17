@@ -44,6 +44,12 @@ const Cook = ({cook}) => {
                 
             <Cooking cooking={cooking}></Cooking>
 
+            <div className=" text-right mt-20">
+                <hr />
+                <p>Total Time : {cook.length} </p>
+                <p>Total Calories : {cook.length} </p>
+            </div>
+
         </div>
     );
 };

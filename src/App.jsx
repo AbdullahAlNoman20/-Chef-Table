@@ -4,6 +4,8 @@ import './App.css'
 import Cook from './Components/Cook/Cook'
 import Header from './Components/Header/Header'
 import Recipes from './Components/Header/Recipes/Recipes'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -11,15 +13,13 @@ function App() {
 
   const handleAddCook = (recipe) =>{
     // console.log(recipe)
+    toast("Wow so easy !");
+    
     const newCook =[...cook,recipe];
     setcook(newCook);
 
-        //     // And Remove From Cook
-        // console.log('Remove ID ',recipe_id)
-        // const remainingcook = cook.filter(cook =>cook.recipe_id !== recipe_id);
-        // setcook(remainingcook)
 
-    
+
   }
 
 
@@ -34,7 +34,7 @@ function App() {
 
     </div>
     
-      
+    <ToastContainer />
     </>
   )
 }
