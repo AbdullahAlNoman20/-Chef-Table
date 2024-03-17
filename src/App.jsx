@@ -6,6 +6,7 @@ import Header from './Components/Header/Header'
 import Recipes from './Components/Header/Recipes/Recipes'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -42,6 +43,8 @@ function App() {
       <Cook cook={cook}></Cook>
 
     </div>
+
+    <Footer></Footer>
     
     <ToastContainer />
     </>

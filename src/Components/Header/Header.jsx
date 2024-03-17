@@ -49,9 +49,9 @@ const Header = () => {
         <div className="rounded-3xl hero min-h-screen" style={{backgroundImage: 'url(https://i.ibb.co/dK3zkpG/Rectangle-1.png)'}}>
   <div className="hero-overlay bg-opacity-60 rounded-3xl"></div>
   <div className="hero-content text-center text-neutral-content">
-    <div className="">
-      <h1 className="mb-5 text-5xl font-bold">Discover an exceptional cooking class tailored for you!</h1>
-      <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quas dolores hic, ex facilis enim tempore magnam, harum reprehenderit molestiae libero, consequatur sapiente quasi deleniti? Nobis aperiam eaque facilis velit.</p>
+    <div className=" px-10">
+      <h1 className="mb-5 text-5xl font-bold">Chef Table: Where Every Dish Becomes a Masterpiece!</h1>
+      <p className="mb-5">Discover your culinary potential with Chef Table – the ultimate online cooking platform. From basic techniques to gourmet creations, unlock the secrets of the kitchen and unleash your inner chef!</p>
       <button className="text-white btn btn-active btn-success">Explore Now</button>
       <button className="ml-5 btn btn-outline btn-success">Our Feedback</button>
     </div>
@@ -64,7 +64,7 @@ const Header = () => {
         {/* Recipes Document */}
         <div className="px-2 md:px-10 my-20 text-center">
             <h1 className="text-5xl font-extrabold mb-5">Our Recipes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores quos, excepturi reiciendis tenetur earum corporis vitae vel. Quam ex ad commodi esse quis blanditiis eum saepe qui nostrum fugiat!</p>
+            <p>"Check out our latest recipes for a taste of culinary innovation. From mouthwatering mains to irresistible desserts, there's something new to inspire your next culinary masterpiece!"</p>
         </div>
 
         </div>
