@@ -10,24 +10,21 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
 
   const [cook,setcook] = useState([]);
-  const [isSelected, setIsSelected] = useState(false);
+  const [selectedRecipes, setSelectedRecipes] = useState([]);
 
-       const toggleSelection = () => {
-          setIsSelected(!isSelected);
-         };
-
-  const handleAddCook = (recipe) =>{
-    // console.log(recipe)
+  const handleAddCook = (recipe,recipeId) =>{
+    console.log(recipe,recipeId)
     
-    if (!isSelected) {
-      toggleSelection();
-      toast("Recipe Added");
+    if (selectedRecipes.includes(recipeId)) {
+     
+      toast.warn("Already Selected");
     } 
     else {
+      
          const newCook = [...cook,recipe];
           setcook(newCook);
-          toast("Selected"); 
-          setIsSelected(true);
+          toast.success("Your Food is going to Cook");
+          setSelectedRecipes([...selectedRecipes, recipeId]);
           
         }
 

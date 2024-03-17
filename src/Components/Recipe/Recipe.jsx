@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 const Recipe = ({recipe,handleAddCook}) => {
 
     const {recipe_image,recipe_name,short_description,preparing_time,calories} = recipe;
+    const recipeId = recipe.recipe_id;
 
     // console.log(recipe)
 
@@ -14,7 +15,7 @@ const Recipe = ({recipe,handleAddCook}) => {
             <hr className='my-5' />
             <p><i className="fa-regular fa-clock"></i> <span> {preparing_time} </span> minutes <i class="fa-solid fa-fire-flame-curved ml-5"></i> <span> {calories} </span> calories</p>
 
-            <button onClick={() => handleAddCook(recipe)} className="btn btn-outline btn-success rounded-2xl mt-5 text-white">Want to Cook</button>
+            <button onClick={() => handleAddCook(recipe,recipeId)} className="btn btn-outline btn-success rounded-2xl mt-5 text-white">Want to Cook</button>
         </div>
     );
 };
