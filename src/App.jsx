@@ -12,17 +12,23 @@ function App() {
   const [cook,setcook] = useState([]);
   const [isSelected, setIsSelected] = useState(false);
 
+       const toggleSelection = () => {
+          setIsSelected(!isSelected);
+         };
+
   const handleAddCook = (recipe) =>{
     // console.log(recipe)
     
-    if (isSelected) {
-      toast("Already Selected");
+    if (!isSelected) {
+      toggleSelection();
+      toast("Recipe Added");
     } 
     else {
          const newCook = [...cook,recipe];
           setcook(newCook);
-          toast("Recipe Added"); 
+          toast("Selected"); 
           setIsSelected(true);
+          
         }
 
 

@@ -12,9 +12,9 @@ const Recipe = ({recipe,handleAddCook}) => {
             <h1 className='text-3xl my-5'>{recipe_name}</h1>
             <p>{short_description}</p>
             <hr className='my-5' />
-            <p><i class="fa-regular fa-clock"></i> <span> {preparing_time} </span> minutes <i class="fa-solid fa-fire-flame-curved ml-5"></i> <span> {calories} </span> calories</p>
+            <p><i className="fa-regular fa-clock"></i> <span> {preparing_time} </span> minutes <i class="fa-solid fa-fire-flame-curved ml-5"></i> <span> {calories} </span> calories</p>
 
-            <button onClick={() => handleAddCook(recipe)} class="btn btn-outline btn-success rounded-2xl mt-5 text-white">Want to Cook</button>
+            <button onClick={() => handleAddCook(recipe)} className="btn btn-outline btn-success rounded-2xl mt-5 text-white">Want to Cook</button>
         </div>
     );
 };
