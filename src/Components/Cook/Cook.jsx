@@ -11,12 +11,16 @@ const Cook = ({cook}) => {
 
     const [cooking,setcooking] = useState([]);
 
-    const handleAddCooking = (food) =>{
+    const handleAddCooking = (food,foodId) =>{
         // console.log(food)
         const newCooking =[...cooking,food];
         setcooking(newCooking);
 
-        
+        // Remove from Cooking
+        // console.log(foodId)
+        // const remainingFood = Cook.filter(food => food.recipe_id !== foodId);
+        // console.log(food.recipe_id)
+        // setcooking(remainingFood);
       }
 
 

@@ -20,11 +20,11 @@ const Header = () => {
         <li><a>Search</a></li>
       </ul>
     </div>
-    <a class="md:text-4xl md:font-extrabold text-red-600"><i class="fa-solid fa-martini-glass-citrus"></i> Chef Table</a>
+    <a class="md:text-4xl md:font-extrabold text-green-600"><i class="fa-solid fa-martini-glass-citrus"></i> Chef Table</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1 font-bold">
-      <li><a className="text-red-600">Home</a></li>
+      <li><a className="text-green-600">Home</a></li>
       <li><a>About</a></li>
       <li><a>Recipes</a></li>
       <li><a>Search</a></li>
@@ -63,8 +63,8 @@ const Header = () => {
 
         {/* Recipes Document */}
         <div className="px-2 md:px-10 my-20 text-center">
-            <h1 className="text-5xl font-extrabold mb-5">Our Recipes</h1>
-            <p>"Check out our latest recipes for a taste of culinary innovation. From mouthwatering mains to irresistible desserts, there's something new to inspire your next culinary masterpiece!"</p>
+            <h1 className="text-5xl font-extrabold mb-5 text-green-500">Our Recipes</h1>
+            <p className="text-gray-500">Check out our latest recipes for a taste of culinary innovation. From mouthwatering mains to irresistible desserts, theres something new to inspire your next culinary masterpiece!</p>
         </div>
 
         </div>
