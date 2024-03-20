@@ -13,6 +13,7 @@ const Recipe = ({recipe,handleAddCook}) => {
             <h1 className='text-3xl my-5 text-green-500'>{recipe_name}</h1>
             <p className='text-gray-500'>{short_description}</p>
             <hr className='my-5' />
+            <h1 className='py-3 font-bold text-red-500'>Ingredients {ingredients.length}</h1>
                 <ul>
                     {
                         ingredients.map((ingredients,idx)=> <li key={idx}> <i class="fa-solid fa-check text-sky-500"> </i>  {ingredients}</li>)
